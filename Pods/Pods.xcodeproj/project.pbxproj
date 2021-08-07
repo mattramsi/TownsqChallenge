@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA5E72705E89BB36D5FEAC2AAEC119F /* Pods-TownsqChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7862E7B64954A372A2E7FB91E26286F /* Pods-TownsqChallengeTests-dummy.m */; };
+		24B77402E210D0BA8F948B291A85692F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2A9B8A566A76F96DE53999B289127C0C /* Pods-TownsqChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 855EE774BF5ED9E44C1BD4697DCD0938 /* Pods-TownsqChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B2AB99C380DECFF9C35ACA1F5F9D26B /* Pods-TownsqChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5D90D018116040A5381A2FC29A07B2 /* Pods-TownsqChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2BBE61AC27FF345E31603B0F4CBC121 /* Pods-TownsqChallenge-TownsqChallengeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3EB4E6E956C19B6476FA33C4F47357F /* Pods-TownsqChallenge-TownsqChallengeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF815EA7DCD7138FC5A18EAE243A6919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D16793A762191C62E8418674090508EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DDB7EF8A2656229ADF987C91AB2BF68D /* Pods-TownsqChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE12D90366EA259417B7C34C8D815D /* Pods-TownsqChallenge-dummy.m */; };
+		ECB23B3AA88D3BBDDBF8651D8DD67FCD /* Pods-TownsqChallenge-TownsqChallengeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6972A2E911902229CD5E01DF64E700 /* Pods-TownsqChallenge-TownsqChallengeUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0C62C418EDAFB252594D83D8D71409B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2568D23390131AE1C95A8AB806FCEC;
+			remoteInfo = "Pods-TownsqChallenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09FA7AB40A11843724B27028643F5BC7 /* Pods-TownsqChallenge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TownsqChallenge-Info.plist"; sourceTree = "<group>"; };
+		0D5D90D018116040A5381A2FC29A07B2 /* Pods-TownsqChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TownsqChallenge-umbrella.h"; sourceTree = "<group>"; };
+		0FCA7F54F7917A2450B19F3B7D423332 /* Pods-TownsqChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TownsqChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B3E2601198B6E7FEA85E2651C2DC06B /* Pods-TownsqChallengeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TownsqChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		2EBBDECB7C1E73F187E81A949A05C71E /* Pods-TownsqChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TownsqChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		346BFFB2517DB1180E1B7BD1A4722374 /* Pods_TownsqChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TownsqChallenge.framework; path = "Pods-TownsqChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B4301E4CF11CEF387CF7D426A242C3 /* Pods-TownsqChallenge-TownsqChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TownsqChallenge-TownsqChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BB8A6CC863941B3B7FFE19B95F310DA /* Pods-TownsqChallenge-TownsqChallengeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TownsqChallenge-TownsqChallengeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		45F56437D83CCF653AAE5B30370B3E8E /* Pods-TownsqChallenge-TownsqChallengeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TownsqChallenge-TownsqChallengeUITests-Info.plist"; sourceTree = "<group>"; };
+		49B73E6A57C3E4E0E8713DF081BE1A68 /* Pods_TownsqChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TownsqChallengeTests.framework; path = "Pods-TownsqChallengeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8132DBB032C2E62B7ED34DE58A6729 /* Pods-TownsqChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TownsqChallenge.modulemap"; sourceTree = "<group>"; };
+		6BDE12D90366EA259417B7C34C8D815D /* Pods-TownsqChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TownsqChallenge-dummy.m"; sourceTree = "<group>"; };
+		6CB77ADA3E67E9A2B77E393439365CF5 /* Pods-TownsqChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TownsqChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7209B036C5ADA9127C52A1745C1D776A /* Pods-TownsqChallenge-TownsqChallengeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TownsqChallenge-TownsqChallengeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		855EE774BF5ED9E44C1BD4697DCD0938 /* Pods-TownsqChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TownsqChallengeTests-umbrella.h"; sourceTree = "<group>"; };
+		9AAFCB9E2CD9D9DD6B3BE7C0206913CA /* Pods-TownsqChallenge-TownsqChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TownsqChallenge-TownsqChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E6972A2E911902229CD5E01DF64E700 /* Pods-TownsqChallenge-TownsqChallengeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TownsqChallenge-TownsqChallengeUITests-dummy.m"; sourceTree = "<group>"; };
+		A6CAB03AA31B2B4969B1B331DCE44491 /* Pods-TownsqChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TownsqChallengeTests.modulemap"; sourceTree = "<group>"; };
+		B5D30A9D12A87AB721F744D8B3013F2D /* Pods_TownsqChallenge_TownsqChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TownsqChallenge_TownsqChallengeUITests.framework; path = "Pods-TownsqChallenge-TownsqChallengeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04D03BFE056810DC184B8EDEEDF4A00 /* Pods-TownsqChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TownsqChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7862E7B64954A372A2E7FB91E26286F /* Pods-TownsqChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TownsqChallengeTests-dummy.m"; sourceTree = "<group>"; };
+		CC6AC80188B9F74BD3C7C008D216A181 /* Pods-TownsqChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TownsqChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		D3EB4E6E956C19B6476FA33C4F47357F /* Pods-TownsqChallenge-TownsqChallengeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TownsqChallenge-TownsqChallengeUITests-umbrella.h"; sourceTree = "<group>"; };
+		D8CBBA2DF29092F0A85D4C71723D274F /* Pods-TownsqChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TownsqChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		E261BFBA8E466F13C9345BDADF7BCDBF /* Pods-TownsqChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TownsqChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E535D6A1B72ECC582C072BC0360EE90B /* Pods-TownsqChallenge-TownsqChallengeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TownsqChallenge-TownsqChallengeUITests.modulemap"; sourceTree = "<group>"; };
+		FEB67D4BAE93F9E357C7C60ED7BAF295 /* Pods-TownsqChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TownsqChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C086181A2EE90E34E2DB159614002174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16793A762191C62E8418674090508EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB4F30F39C7CAA8C6F1372B9B7BAFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF815EA7DCD7138FC5A18EAE243A6919 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1C82B5DA868A7DB90B3C5BBE63E209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B77402E210D0BA8F948B291A85692F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D5CEB1B42270CC1E0123916520CCB10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				346BFFB2517DB1180E1B7BD1A4722374 /* Pods_TownsqChallenge.framework */,
+				B5D30A9D12A87AB721F744D8B3013F2D /* Pods_TownsqChallenge_TownsqChallengeUITests.framework */,
+				49B73E6A57C3E4E0E8713DF081BE1A68 /* Pods_TownsqChallengeTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49DF4CB1C90B72022F586382A56BE467 /* Pods-TownsqChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6CAB03AA31B2B4969B1B331DCE44491 /* Pods-TownsqChallengeTests.modulemap */,
+				C04D03BFE056810DC184B8EDEEDF4A00 /* Pods-TownsqChallengeTests-acknowledgements.markdown */,
+				6CB77ADA3E67E9A2B77E393439365CF5 /* Pods-TownsqChallengeTests-acknowledgements.plist */,
+				C7862E7B64954A372A2E7FB91E26286F /* Pods-TownsqChallengeTests-dummy.m */,
+				1B3E2601198B6E7FEA85E2651C2DC06B /* Pods-TownsqChallengeTests-Info.plist */,
+				855EE774BF5ED9E44C1BD4697DCD0938 /* Pods-TownsqChallengeTests-umbrella.h */,
+				0FCA7F54F7917A2450B19F3B7D423332 /* Pods-TownsqChallengeTests.debug.xcconfig */,
+				2EBBDECB7C1E73F187E81A949A05C71E /* Pods-TownsqChallengeTests.release.xcconfig */,
+			);
+			name = "Pods-TownsqChallengeTests";
+			path = "Target Support Files/Pods-TownsqChallengeTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F7E95846933FA4568656DC1CD170B2E /* Pods-TownsqChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				6A8132DBB032C2E62B7ED34DE58A6729 /* Pods-TownsqChallenge.modulemap */,
+				E261BFBA8E466F13C9345BDADF7BCDBF /* Pods-TownsqChallenge-acknowledgements.markdown */,
+				FEB67D4BAE93F9E357C7C60ED7BAF295 /* Pods-TownsqChallenge-acknowledgements.plist */,
+				6BDE12D90366EA259417B7C34C8D815D /* Pods-TownsqChallenge-dummy.m */,
+				09FA7AB40A11843724B27028643F5BC7 /* Pods-TownsqChallenge-Info.plist */,
+				0D5D90D018116040A5381A2FC29A07B2 /* Pods-TownsqChallenge-umbrella.h */,
+				D8CBBA2DF29092F0A85D4C71723D274F /* Pods-TownsqChallenge.debug.xcconfig */,
+				CC6AC80188B9F74BD3C7C008D216A181 /* Pods-TownsqChallenge.release.xcconfig */,
+			);
+			name = "Pods-TownsqChallenge";
+			path = "Target Support Files/Pods-TownsqChallenge";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2D5CEB1B42270CC1E0123916520CCB10 /* Products */,
+				D8303C6D342AA9A639036CDEA8D5E51B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8303C6D342AA9A639036CDEA8D5E51B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F7E95846933FA4568656DC1CD170B2E /* Pods-TownsqChallenge */,
+				EAF2443B10B33E29CDFCCF0FCBA56783 /* Pods-TownsqChallenge-TownsqChallengeUITests */,
+				49DF4CB1C90B72022F586382A56BE467 /* Pods-TownsqChallengeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EAF2443B10B33E29CDFCCF0FCBA56783 /* Pods-TownsqChallenge-TownsqChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E535D6A1B72ECC582C072BC0360EE90B /* Pods-TownsqChallenge-TownsqChallengeUITests.modulemap */,
+				7209B036C5ADA9127C52A1745C1D776A /* Pods-TownsqChallenge-TownsqChallengeUITests-acknowledgements.markdown */,
+				3BB8A6CC863941B3B7FFE19B95F310DA /* Pods-TownsqChallenge-TownsqChallengeUITests-acknowledgements.plist */,
+				9E6972A2E911902229CD5E01DF64E700 /* Pods-TownsqChallenge-TownsqChallengeUITests-dummy.m */,
+				45F56437D83CCF653AAE5B30370B3E8E /* Pods-TownsqChallenge-TownsqChallengeUITests-Info.plist */,
+				D3EB4E6E956C19B6476FA33C4F47357F /* Pods-TownsqChallenge-TownsqChallengeUITests-umbrella.h */,
+				9AAFCB9E2CD9D9DD6B3BE7C0206913CA /* Pods-TownsqChallenge-TownsqChallengeUITests.debug.xcconfig */,
+				36B4301E4CF11CEF387CF7D426A242C3 /* Pods-TownsqChallenge-TownsqChallengeUITests.release.xcconfig */,
+			);
+			name = "Pods-TownsqChallenge-TownsqChallengeUITests";
+			path = "Target Support Files/Pods-TownsqChallenge-TownsqChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7AD75B08F6CCA7CDFCD33735836AB611 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BBE61AC27FF345E31603B0F4CBC121 /* Pods-TownsqChallenge-TownsqChallengeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9322CC3F719F9FFDF363350474EEBE19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2AB99C380DECFF9C35ACA1F5F9D26B /* Pods-TownsqChallenge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E333C6B3F2A359468D1E3A8F169723 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9B8A566A76F96DE53999B289127C0C /* Pods-TownsqChallengeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BCFE49D9B27841CA4C8161C74934CC48 /* Pods-TownsqChallenge-TownsqChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8518A2084141DA5EA923405FCFA19491 /* Build configuration list for PBXNativeTarget "Pods-TownsqChallenge-TownsqChallengeUITests" */;
+			buildPhases = (
+				7AD75B08F6CCA7CDFCD33735836AB611 /* Headers */,
+				CA39AB3192C38608F7678FC1908B4D5C /* Sources */,
+				C086181A2EE90E34E2DB159614002174 /* Frameworks */,
+				3AE13A1807D06545EB0C27D32C24E715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TownsqChallenge-TownsqChallengeUITests";
+			productName = "Pods-TownsqChallenge-TownsqChallengeUITests";
+			productReference = B5D30A9D12A87AB721F744D8B3013F2D /* Pods_TownsqChallenge_TownsqChallengeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB2568D23390131AE1C95A8AB806FCEC /* Pods-TownsqChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD277EF3D93E91A634A4EC78D31B5159 /* Build configuration list for PBXNativeTarget "Pods-TownsqChallenge" */;
+			buildPhases = (
+				9322CC3F719F9FFDF363350474EEBE19 /* Headers */,
+				9D5A24012F63462C2FCA9963CE8D3E9E /* Sources */,
+				ED1C82B5DA868A7DB90B3C5BBE63E209 /* Frameworks */,
+				C35AC4AA8373BB7E5B8846AF6C053239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TownsqChallenge";
+			productName = "Pods-TownsqChallenge";
+			productReference = 346BFFB2517DB1180E1B7BD1A4722374 /* Pods_TownsqChallenge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF277765EA9CA003468C9AC3AC7A7C7A /* Pods-TownsqChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD4A21C91D8F4924AC0259B86777F6E /* Build configuration list for PBXNativeTarget "Pods-TownsqChallengeTests" */;
+			buildPhases = (
+				F5E333C6B3F2A359468D1E3A8F169723 /* Headers */,
+				8CA9DD846090E08EC3B66F4387E2110F /* Sources */,
+				CDB4F30F39C7CAA8C6F1372B9B7BAFAA /* Frameworks */,
+				B0EB44800188C92C1271D582B78E7BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B50B7C2E12C57DC5033F40FFA6C4C5F /* PBXTargetDependency */,
+			);
+			name = "Pods-TownsqChallengeTests";
+			productName = "Pods-TownsqChallengeTests";
+			productReference = 49B73E6A57C3E4E0E8713DF081BE1A68 /* Pods_TownsqChallengeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2D5CEB1B42270CC1E0123916520CCB10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2568D23390131AE1C95A8AB806FCEC /* Pods-TownsqChallenge */,
+				BCFE49D9B27841CA4C8161C74934CC48 /* Pods-TownsqChallenge-TownsqChallengeUITests */,
+				DF277765EA9CA003468C9AC3AC7A7C7A /* Pods-TownsqChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AE13A1807D06545EB0C27D32C24E715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EB44800188C92C1271D582B78E7BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35AC4AA8373BB7E5B8846AF6C053239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CA9DD846090E08EC3B66F4387E2110F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA5E72705E89BB36D5FEAC2AAEC119F /* Pods-TownsqChallengeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5A24012F63462C2FCA9963CE8D3E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB7EF8A2656229ADF987C91AB2BF68D /* Pods-TownsqChallenge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA39AB3192C38608F7678FC1908B4D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB23B3AA88D3BBDDBF8651D8DD67FCD /* Pods-TownsqChallenge-TownsqChallengeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B50B7C2E12C57DC5033F40FFA6C4C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TownsqChallenge";
+			target = DB2568D23390131AE1C95A8AB806FCEC /* Pods-TownsqChallenge */;
+			targetProxy = E0C62C418EDAFB252594D83D8D71409B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B4387DCFB8180691A184B27AA86D6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CBBA2DF29092F0A85D4C71723D274F /* Pods-TownsqChallenge.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TownsqChallenge/Pods-TownsqChallenge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TownsqChallenge/Pods-TownsqChallenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F81D3C2E28B1FEF7417A1B2DC89D22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B4301E4CF11CEF387CF7D426A242C3 /* Pods-TownsqChallenge-TownsqChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TownsqChallenge-TownsqChallengeUITests/Pods-TownsqChallenge-TownsqChallengeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TownsqChallenge-TownsqChallengeUITests/Pods-TownsqChallenge-TownsqChallengeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25A06BBB0A04BC4FA3756824F66EE4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6AC80188B9F74BD3C7C008D216A181 /* Pods-TownsqChallenge.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TownsqChallenge/Pods-TownsqChallenge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TownsqChallenge/Pods-TownsqChallenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5289C56E04A7AA6F407ED537DCF7D651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCA7F54F7917A2450B19F3B7D423332 /* Pods-TownsqChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TownsqChallengeTests/Pods-TownsqChallengeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TownsqChallengeTests/Pods-TownsqChallengeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		88E3152B0AA81D35536DEE51E1203CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EBBDECB7C1E73F187E81A949A05C71E /* Pods-TownsqChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TownsqChallengeTests/Pods-TownsqChallengeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TownsqChallengeTests/Pods-TownsqChallengeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8ED83F3E01E756AE98670F94878F7455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAFCB9E2CD9D9DD6B3BE7C0206913CA /* Pods-TownsqChallenge-TownsqChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TownsqChallenge-TownsqChallengeUITests/Pods-TownsqChallenge-TownsqChallengeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TownsqChallenge-TownsqChallengeUITests/Pods-TownsqChallenge-TownsqChallengeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8518A2084141DA5EA923405FCFA19491 /* Build configuration list for PBXNativeTarget "Pods-TownsqChallenge-TownsqChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED83F3E01E756AE98670F94878F7455 /* Debug */,
+				1F81D3C2E28B1FEF7417A1B2DC89D22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD277EF3D93E91A634A4EC78D31B5159 /* Build configuration list for PBXNativeTarget "Pods-TownsqChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4387DCFB8180691A184B27AA86D6B4 /* Debug */,
+				25A06BBB0A04BC4FA3756824F66EE4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD4A21C91D8F4924AC0259B86777F6E /* Build configuration list for PBXNativeTarget "Pods-TownsqChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5289C56E04A7AA6F407ED537DCF7D651 /* Debug */,
+				88E3152B0AA81D35536DEE51E1203CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
