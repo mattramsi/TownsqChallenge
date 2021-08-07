@@ -1,0 +1,6 @@
+framework module Pods_TownsqChallenge_TownsqChallengeUITests {
+  umbrella header "Pods-TownsqChallenge-TownsqChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
